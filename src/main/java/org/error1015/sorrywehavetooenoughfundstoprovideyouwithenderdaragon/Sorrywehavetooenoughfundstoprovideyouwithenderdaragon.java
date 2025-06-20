@@ -22,7 +22,6 @@ public class Sorrywehavetooenoughfundstoprovideyouwithenderdaragon {
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
-    // BUG: 玩家退出重进将会重新生成末影龙 推断为： 没有持久保存数据
     public void summonEnderDragonWhenAlive(EntityJoinLevelEvent event) {
         if (!Config.enable.getAsBoolean()) return; // 模组被关闭 事件退出
         var level = event.getLevel();
