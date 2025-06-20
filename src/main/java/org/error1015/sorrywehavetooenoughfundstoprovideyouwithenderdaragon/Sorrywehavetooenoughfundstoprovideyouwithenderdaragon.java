@@ -14,8 +14,7 @@ import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
 
 @Mod(Sorrywehavetooenoughfundstoprovideyouwithenderdaragon.MODID)
 public class Sorrywehavetooenoughfundstoprovideyouwithenderdaragon {
-    public static final String MODID = "sorrywehavetooenoughfundstoprovideyouwithenderdaragon";
-
+    public static final String MODID = "sorrywehavetooenoughfundstoprovideyouwithenderdragon";
 
     public Sorrywehavetooenoughfundstoprovideyouwithenderdaragon(IEventBus modEventBus, ModContainer modContainer) {
         var nfbus = NeoForge.EVENT_BUS;
